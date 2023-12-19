@@ -2,10 +2,7 @@
 
 
 
-
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Itim&family=Kanit:wght@200&family=Rubik+Doodle+Shadow&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Itim&family=Kanit:wght@200&family=Lobster&family=Mitr&family=Pattaya&family=Rubik+Doodle+Shadow&display=swap');
 
 
 * {
@@ -18,7 +15,6 @@ body {
     to left,
     white,pink,rgb(245, 147, 245)
   );
-
 }
 
 html {
