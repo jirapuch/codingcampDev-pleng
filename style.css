@@ -1,6 +1,12 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Itim&family=Kanit:wght@200&family=Rubik+Doodle+Shadow&display=swap');
+
+
+
 
 * {
   margin: 0;
@@ -10,9 +16,9 @@
 body {
   background:linear-gradient(
     to left,
-    white,pink,rgb(248, 134, 248)
+    white,pink,rgb(245, 147, 245)
   );
-  font-family: "Poppins", sans-serif;
+
 }
 
 html {
@@ -303,7 +309,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background:linear-gradient(
+    to top,
+    white,rgb(216, 208, 212),rgb(145, 127, 145)
+  );
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -379,11 +388,11 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: rgb(241, 33, 196);
 }
 
 .project-btn {
-  color: black;
+  color: rgb(245, 70, 245);
   border-color: rgb(163, 163, 163);
 }
 
