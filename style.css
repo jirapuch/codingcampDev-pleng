@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(121, 126, 120);
 }
 
 /* TRANSITION */
@@ -25,7 +25,7 @@ a,
 .btn {
   transition: all 300ms ease;
 }
-.ing-round{
+.img-round{
   border-radius: 50%;
 }
 /* DESKTOP NAV */
@@ -49,16 +49,16 @@ nav {
 
 
 a {
-  color: black;
+  color: rgb(138, 7, 138);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: purple;
 }
 
 a:hover {
-  color: grey;
+  color: purple;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: pink(181, 181, 181);
 }
 
 .logo {
@@ -92,7 +92,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: rgb(138, 135, 138);
   transition: all 0.3 ease-in-out;
 }
 
@@ -100,7 +100,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: yellowgreen;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -112,7 +112,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: pink;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
